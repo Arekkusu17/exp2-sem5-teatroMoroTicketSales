@@ -227,6 +227,7 @@ public class TeatroMoroTicketSales {
 
     // Método para obtener el descuento como double, según la edad
     static double getDiscountByAge(int age) {
+        //Para este caso de uso, tomaremos como estudiante a los menores de 25 años
         if (age < 25) {
             return 0.10; // 10% descuento para estudiantes
         } else if (age >= 65) {
